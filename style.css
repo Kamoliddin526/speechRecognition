@@ -1,0 +1,33 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.speech-recognition {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: lime;
+    font-size: 20px;
+    color: white;
+    transition: .5s;
+    margin: 15px 0;
+}
+
+.speech-recognition:hover {
+    padding: 0.5rem 1rem;
+}
+
+.result {
+    background-color: black;
+    color: white;
+}
